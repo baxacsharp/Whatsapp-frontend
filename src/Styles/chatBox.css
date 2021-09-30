@@ -1,0 +1,176 @@
+.mainContainer {
+  max-height: 100vh !important;
+  padding-right: 0px !important;
+}
+body {
+  background: rgb(119, 235, 164);
+  background: linear-gradient(
+    0deg,
+    rgba(119, 235, 164, 1) 73%,
+    rgba(119, 235, 164, 1) 73%
+  );
+}
+.profileDiv {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContianerRow {
+  height: 90vh !important;
+}
+
+.chatRow {
+  margin-left: 0 !important;
+}
+.chatItemHeader {
+  height: 8vh;
+}
+
+.chatHeader {
+  height: 8vh;
+  border-left: solid 1px #dadada;
+}
+
+.chatList {
+  padding-right: 0px !important;
+}
+
+.chatPage {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.userListDiv {
+  height: 78vh !important;
+  overflow-y: auto;
+}
+
+#chatBody {
+  height: 78vh !important;
+  overflow-y: auto;
+}
+
+.chatBody-childDiv {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  min-height: 200px;
+  padding-left: 7.5% !important;
+  padding-right: 7.5% !important;
+}
+
+#chatBoxDetails {
+  position: relative;
+  z-index: 1000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #ededed;
+}
+
+.chatImageDiv {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.chatUser {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 80%;
+}
+
+.mainContianer-chat {
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.chatFooter {
+  background-color: #ededed;
+  border-left: solid 1px #dadada;
+  height: 7vh;
+}
+
+.chatFooterDetails {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.messageInput {
+  position: relative;
+  top: 22.5%;
+  /* right: 30%; */
+  flex-grow: 1;
+}
+
+.chatHeadImgDiv {
+  width: 10%;
+}
+
+.profileImgDiv {
+  width: 40%;
+}
+.chatHeadIconDiv {
+  width: 10%;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.bkBox {
+  background-color: white;
+  height: 79.1vh !important;
+}
+
+.chatHeadImgDiv1 {
+  width: 10%;
+  margin-left: 8px;
+}
+.profile-rounded-circle {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+.profileForm {
+  width: 80%;
+}
+
+.chatItemBody {
+  height: 85vh !important;
+  background-color: white;
+}
+
+.searchBarUsers:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.messageReceived {
+  width: 60% !important;
+  background-color: white;
+  overflow-wrap: break-word;
+}
+
+.messageSent {
+  width: 60% !important;
+  background-color: #e1ffc7;
+  overflow-wrap: break-word;
+}
+.profileImgDiv1 {
+  width: 15%;
+}
