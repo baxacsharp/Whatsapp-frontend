@@ -16,7 +16,7 @@ function App() {
   const endpoint = process.env.REACT_APP_BACK_URL
   useEffect(() => {
     setInterval(() => {
-      axios.post(endpoint + "/users/refreshToken", { withCredentials: true })
+      axios.post(endpoint + "users/refreshToken", { withCredentials: true })
       console.log("beep")
     }, 1000 * 60 * 5)
   }, [])
