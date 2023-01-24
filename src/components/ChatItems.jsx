@@ -24,7 +24,7 @@ export default function ChatItems() {
     const [query, setQuery] = useState("");
 
     useEffect(() => {
-        axios.get(endpoint + "/users", { withCredentials: true }).then((response) => setUsers(response.data));
+        axios.get(endpoint + "users", { withCredentials: true }).then((response) => setUsers(response.data));
         dispatch(allActions.chatActions.fetch_Chat_Rooms());
     }, [dispatch]);
 
