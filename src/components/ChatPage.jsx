@@ -275,7 +275,7 @@ function ChatPage(_props) {
                             <>
                                 <div className="" role="button">
                                     <div className="chatHeadImgDiv">
-                                        <img src={chat.current_chat_room.length > 0 && chat.current_chat_room.members && chat.current_chat_room.members.filter((member) => member._id !== user.currentUser._id) ? chat.current_chat_room.members[0].avatar : 'https://picsum.photos/200'} /* style={{ borderRadius: "50%" }} */ className="rounded-circle" alt="" />
+                                        <img src={chat.current_chat_room && chat.current_chat_room.length > 0 && chat.current_chat_room.members && chat.current_chat_room.members.filter((member) => member._id !== user.currentUser._id) ? chat.current_chat_room.members[0].avatar : 'https://picsum.photos/200'} /* style={{ borderRadius: "50%" }} */ className="rounded-circle" alt="" />
                                     </div>
                                 </div>
                                 <div className="chatUser">
